@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # Configure Gemini API
 genai.configure(api_key="AIzaSyCS0C8fmXwf6k8b4Mi5ZPiIHyqJDaSGqKk")
-
+st.image("logo.jpg", width=150)
 # Streamlit UI
 st.title("💬 Gmail Genie Chatbot")
 st.write("Ask me anything!")
