@@ -31,7 +31,7 @@ st.markdown(
 
 # Display Logo and Title in Center
 st.markdown('<div class="centered">', unsafe_allow_html=True)
-st.image("assets/logo.jpg", width=120)
+st.image("logo.jpg", width=120)
 st.markdown('<div class="title">🤖 Gmail Genie Chatbot</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Effortlessly manage your emails with AI ✨</div>', unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
