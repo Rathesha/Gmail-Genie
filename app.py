@@ -5,7 +5,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyCS0C8fmXwf6k8b4Mi5ZPiIHyqJDaSGqKk")
 
 # Streamlit UI
-st.title("💬 Gemini Chatbot")
+st.title("💬 Gmail Genie Chatbot")
 st.write("Ask me anything!")
 
 # Initialize session state for chat history
